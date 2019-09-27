@@ -26,5 +26,34 @@ namespace AdminOn_Desktop
         {
 
         }
+
+        private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label33_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label19_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (DialogResult.Yes ==
+            MessageBox.Show("Sunteti sigur ca doriti sa ANULATI emiterea unei DISPOZITII de PLATA?", "ATENTIE !!!", MessageBoxButtons.YesNoCancel))
+            {
+                this.Close();
+            }
+        }
     }
 }
