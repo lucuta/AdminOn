@@ -33,21 +33,35 @@
             this.data_dispozitie_plata = new System.Windows.Forms.DateTimePicker();
             this.text_disp_plata_din_data_de = new System.Windows.Forms.Label();
             this.nr_dispozitie_plata = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(369, 38);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.Location = new System.Drawing.Point(105, 23);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(169, 13);
+            this.label1.Size = new System.Drawing.Size(297, 24);
             this.label1.TabIndex = 0;
             this.label1.Text = "Dispozitie de PLATA catre Caserie";
             // 
             // text_disp_plata_nr
             // 
             this.text_disp_plata_nr.AutoSize = true;
-            this.text_disp_plata_nr.Location = new System.Drawing.Point(251, 72);
+            this.text_disp_plata_nr.Location = new System.Drawing.Point(35, 69);
             this.text_disp_plata_nr.Name = "text_disp_plata_nr";
             this.text_disp_plata_nr.Size = new System.Drawing.Size(21, 13);
             this.text_disp_plata_nr.TabIndex = 1;
@@ -55,7 +69,7 @@
             // 
             // data_dispozitie_plata
             // 
-            this.data_dispozitie_plata.Location = new System.Drawing.Point(492, 66);
+            this.data_dispozitie_plata.Location = new System.Drawing.Point(276, 63);
             this.data_dispozitie_plata.Name = "data_dispozitie_plata";
             this.data_dispozitie_plata.Size = new System.Drawing.Size(200, 20);
             this.data_dispozitie_plata.TabIndex = 2;
@@ -63,7 +77,7 @@
             // text_disp_plata_din_data_de
             // 
             this.text_disp_plata_din_data_de.AutoSize = true;
-            this.text_disp_plata_din_data_de.Location = new System.Drawing.Point(420, 72);
+            this.text_disp_plata_din_data_de.Location = new System.Drawing.Point(204, 69);
             this.text_disp_plata_din_data_de.Name = "text_disp_plata_din_data_de";
             this.text_disp_plata_din_data_de.Size = new System.Drawing.Size(66, 13);
             this.text_disp_plata_din_data_de.TabIndex = 3;
@@ -71,16 +85,145 @@
             // 
             // nr_dispozitie_plata
             // 
-            this.nr_dispozitie_plata.Location = new System.Drawing.Point(278, 65);
+            this.nr_dispozitie_plata.Location = new System.Drawing.Point(62, 62);
             this.nr_dispozitie_plata.Name = "nr_dispozitie_plata";
             this.nr_dispozitie_plata.Size = new System.Drawing.Size(136, 20);
             this.nr_dispozitie_plata.TabIndex = 4;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(35, 115);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(112, 13);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "Numele si Prenumele :";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(154, 108);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(322, 20);
+            this.textBox1.TabIndex = 6;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(35, 138);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(97, 13);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Functia (calitatea) :";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(154, 134);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(322, 20);
+            this.textBox2.TabIndex = 8;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(35, 160);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(257, 13);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "Suma PLATITA ( introduceti valoarea platita in cifre ):";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(88, 177);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(149, 20);
+            this.textBox3.TabIndex = 10;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(247, 180);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(23, 13);
+            this.label5.TabIndex = 11;
+            this.label5.Text = "LEI";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(38, 207);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(46, 13);
+            this.label6.TabIndex = 12;
+            this.label6.Text = "in litere :";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(37, 181);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(44, 13);
+            this.label7.TabIndex = 13;
+            this.label7.Text = "in cifre :";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(88, 204);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(388, 20);
+            this.textBox4.TabIndex = 14;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(36, 232);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(82, 13);
+            this.label8.TabIndex = 15;
+            this.label8.Text = "Scopul PLATII :";
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(124, 232);
+            this.textBox5.Multiline = true;
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(352, 42);
+            this.textBox5.TabIndex = 16;
+            // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.ColumnCount = 4;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(38, 294);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 2;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(438, 100);
+            this.tableLayoutPanel1.TabIndex = 17;
+            this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
             // dispozitie_de_plata
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(875, 413);
+            this.ClientSize = new System.Drawing.Size(523, 560);
+            this.Controls.Add(this.tableLayoutPanel1);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.nr_dispozitie_plata);
             this.Controls.Add(this.text_disp_plata_din_data_de);
             this.Controls.Add(this.data_dispozitie_plata);
@@ -100,5 +243,18 @@
         private System.Windows.Forms.DateTimePicker data_dispozitie_plata;
         private System.Windows.Forms.Label text_disp_plata_din_data_de;
         private System.Windows.Forms.TextBox nr_dispozitie_plata;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
     }
 }
