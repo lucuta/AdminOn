@@ -17,7 +17,7 @@ namespace AdminOn_Desktop
         public dispozitie_de_plata()
         {
             InitializeComponent();
-            cifre_disp_plata.MaxLength = 9;
+            textBox3.MaxLength = 9;
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -67,7 +67,7 @@ namespace AdminOn_Desktop
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
            
-             labelnrincv.Text = numarincuvinte.NumberToWords(Convert.ToInt32(cifre_disp_plata.Text));
+             labelnrincv.Text = numarincuvinte.NumberToWords(Convert.ToInt32(textBox3.Text));
 
         }
 
@@ -94,11 +94,6 @@ namespace AdminOn_Desktop
             
             
            
-
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
 
         }
     }

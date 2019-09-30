@@ -45,12 +45,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="dispozitie_de_incasare.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="dispozitie_de_incasare.Designer.cs">
-      <DependentUpon>dispozitie_de_incasare.cs</DependentUpon>
-    </Compile>
     <Compile Include="dispozitie_de_plata.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,9 +60,6 @@
     <Compile Include="numarincuvinte.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="dispozitie_de_incasare.resx">
-      <DependentUpon>dispozitie_de_incasare.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="dispozitie_de_plata.resx">
       <DependentUpon>dispozitie_de_plata.cs</DependentUpon>
     </EmbeddedResource>
