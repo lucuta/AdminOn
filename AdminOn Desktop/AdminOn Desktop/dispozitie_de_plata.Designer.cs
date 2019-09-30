@@ -83,8 +83,7 @@
             this.label34 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
+            this.labelnrincv = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
@@ -191,6 +190,8 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(197, 22);
             this.textBox3.TabIndex = 10;
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.textBox3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
             // 
             // label5
             // 
@@ -499,7 +500,7 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 81F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 87F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 103F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 91F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 92F));
             this.tableLayoutPanel2.Controls.Add(this.label20, 0, 1);
             this.tableLayoutPanel2.Controls.Add(this.label21, 1, 1);
             this.tableLayoutPanel2.Controls.Add(this.label22, 2, 1);
@@ -525,7 +526,7 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 46F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 57F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(1597, 139);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(1598, 139);
             this.tableLayoutPanel2.TabIndex = 43;
             // 
             // label20
@@ -711,7 +712,7 @@
             this.label32.Location = new System.Drawing.Point(1235, 1);
             this.label32.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(357, 32);
+            this.label32.Size = new System.Drawing.Size(358, 32);
             this.label32.TabIndex = 12;
             this.label32.Text = "OPERATIUNI cu DISPOZITIILE DE PLATA";
             this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -768,36 +769,27 @@
             this.label36.Location = new System.Drawing.Point(1509, 34);
             this.label36.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(83, 46);
+            this.label36.Size = new System.Drawing.Size(84, 46);
             this.label36.TabIndex = 16;
             this.label36.Text = "LISTARE";
             this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label37
+            // labelnrincv
             // 
-            this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(418, 162);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(54, 17);
-            this.label37.TabIndex = 44;
-            this.label37.Text = "label37";
-            // 
-            // label38
-            // 
-            this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(158, 199);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(54, 17);
-            this.label38.TabIndex = 45;
-            this.label38.Text = "label38";
+            this.labelnrincv.AutoSize = true;
+            this.labelnrincv.Location = new System.Drawing.Point(142, 199);
+            this.labelnrincv.Name = "labelnrincv";
+            this.labelnrincv.Size = new System.Drawing.Size(54, 17);
+            this.labelnrincv.TabIndex = 44;
+            this.labelnrincv.Text = "label37";
+            this.labelnrincv.Click += new System.EventHandler(this.label37_Click);
             // 
             // dispozitie_de_plata
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1640, 780);
-            this.Controls.Add(this.label38);
-            this.Controls.Add(this.label37);
+            this.Controls.Add(this.labelnrincv);
             this.Controls.Add(this.tableLayoutPanel2);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.textBox10);
@@ -836,6 +828,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "dispozitie_de_plata";
             this.Text = "dispozitie_de_plata";
+            this.Load += new System.EventHandler(this.dispozitie_de_plata_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.tableLayoutPanel2.ResumeLayout(false);
@@ -902,7 +895,6 @@
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.Label labelnrincv;
     }
 }

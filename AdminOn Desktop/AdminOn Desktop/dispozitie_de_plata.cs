@@ -12,9 +12,12 @@ namespace AdminOn_Desktop
 {
     public partial class dispozitie_de_plata : Form
     {
+       
+        numarincuvinte nrincv = new numarincuvinte();
         public dispozitie_de_plata()
         {
             InitializeComponent();
+            textBox3.MaxLength = 9;
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -54,6 +57,44 @@ namespace AdminOn_Desktop
             {
                 this.Close();
             }
+        }
+
+        private void label37_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+           
+             labelnrincv.Text = numarincuvinte.NumberToWords(Convert.ToInt32(textBox3.Text));
+
+        }
+
+        private void dispozitie_de_plata_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            Char chr = e.KeyChar;
+           
+            if (!char.IsNumber(e.KeyChar)&&chr!=8)
+            {
+                e.Handled = true;
+
+            }
+            else
+            {
+                e.Handled = false;
+                
+            }
+          
+            
+            
+           
+
         }
     }
 }
