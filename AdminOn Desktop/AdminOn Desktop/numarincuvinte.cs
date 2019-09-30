@@ -10,6 +10,10 @@ namespace AdminOn_Desktop
     {
         public static string NumberToWords(int number)
         {
+
+            if (number == null)
+                return " ";
+
             if (number == 0)
                 return "zero";
 

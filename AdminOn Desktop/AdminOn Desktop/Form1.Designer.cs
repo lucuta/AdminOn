@@ -1,4 +1,6 @@
-﻿namespace AdminOn_Desktop
+﻿using System;
+
+namespace AdminOn_Desktop
 {
     partial class Form1
     {
@@ -35,12 +37,13 @@
             this.dashBoarCentralizatoareToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitIesireToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.venituriToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dispozitieDeIncasareToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cheltuieliToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dispozitieDePlataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bancaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listaDeCheltuieliToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.rapoarteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.despreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.dispozitieDePlataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.testToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -95,9 +98,20 @@
             // 
             // venituriToolStripMenuItem
             // 
+            this.venituriToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.dispozitieDeIncasareToolStripMenuItem});
             this.venituriToolStripMenuItem.Name = "venituriToolStripMenuItem";
             this.venituriToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.venituriToolStripMenuItem.Text = "Venituri";
+            // 
+            // dispozitieDeIncasareToolStripMenuItem
+            // 
+            this.dispozitieDeIncasareToolStripMenuItem.Name = "dispozitieDeIncasareToolStripMenuItem";
+            this.dispozitieDeIncasareToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
+            | System.Windows.Forms.Keys.I)));
+            this.dispozitieDeIncasareToolStripMenuItem.Size = new System.Drawing.Size(256, 22);
+            this.dispozitieDeIncasareToolStripMenuItem.Text = "Dispozitie de Incasare";
+            this.dispozitieDeIncasareToolStripMenuItem.Click += new System.EventHandler(this.dispozitieDeIncasareToolStripMenuItem_Click);
             // 
             // cheltuieliToolStripMenuItem
             // 
@@ -106,6 +120,15 @@
             this.cheltuieliToolStripMenuItem.Name = "cheltuieliToolStripMenuItem";
             this.cheltuieliToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
             this.cheltuieliToolStripMenuItem.Text = "Cheltuieli";
+            // 
+            // dispozitieDePlataToolStripMenuItem
+            // 
+            this.dispozitieDePlataToolStripMenuItem.Name = "dispozitieDePlataToolStripMenuItem";
+            this.dispozitieDePlataToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
+            | System.Windows.Forms.Keys.P)));
+            this.dispozitieDePlataToolStripMenuItem.Size = new System.Drawing.Size(243, 22);
+            this.dispozitieDePlataToolStripMenuItem.Text = "Dispozitie de Plata";
+            this.dispozitieDePlataToolStripMenuItem.Click += new System.EventHandler(this.dispozitieDePlataToolStripMenuItem_Click);
             // 
             // bancaToolStripMenuItem
             // 
@@ -130,13 +153,6 @@
             this.despreToolStripMenuItem.Name = "despreToolStripMenuItem";
             this.despreToolStripMenuItem.Size = new System.Drawing.Size(55, 20);
             this.despreToolStripMenuItem.Text = "Despre";
-            // 
-            // dispozitieDePlataToolStripMenuItem
-            // 
-            this.dispozitieDePlataToolStripMenuItem.Name = "dispozitieDePlataToolStripMenuItem";
-            this.dispozitieDePlataToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
-            this.dispozitieDePlataToolStripMenuItem.Text = "Dispozitie de Plata";
-            this.dispozitieDePlataToolStripMenuItem.Click += new System.EventHandler(this.dispozitieDePlataToolStripMenuItem_Click);
             // 
             // contextMenuStrip1
             // 
@@ -164,7 +180,8 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "AdminOn - Desktop - Complet Edition";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.contextMenuStrip2.ResumeLayout(false);
@@ -173,7 +190,7 @@
 
         }
 
-        #endregion
+      #endregion
 
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
@@ -190,6 +207,7 @@
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip2;
         private System.Windows.Forms.ToolStripMenuItem testToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem dispozitieDeIncasareToolStripMenuItem;
     }
 }
 
