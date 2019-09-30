@@ -31,11 +31,5 @@ namespace AdminOn_Desktop
                 this.Close();
             }
         }
-
-        private void dispozitieDeIncasareToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            dispozitie_de_incasare form2 = new dispozitie_de_incasare();
-            form2.Show();
-        }
     }
 }
