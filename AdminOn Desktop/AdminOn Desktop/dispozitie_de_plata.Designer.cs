@@ -158,7 +158,7 @@
             this.cifre_disp_plata.Location = new System.Drawing.Point(88, 136);
             this.cifre_disp_plata.Name = "cifre_disp_plata";
             this.cifre_disp_plata.Size = new System.Drawing.Size(149, 20);
-            this.cifre_disp_plata.TabIndex = 10;
+            this.cifre_disp_plata.TabIndex = 48;
             this.cifre_disp_plata.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             this.cifre_disp_plata.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
             // 
@@ -364,7 +364,7 @@
             this.labelnrincv.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelnrincv.Name = "labelnrincv";
             this.labelnrincv.Size = new System.Drawing.Size(22, 13);
-            this.labelnrincv.TabIndex = 44;
+            this.labelnrincv.TabIndex = 49;
             this.labelnrincv.Text = "- - -";
             this.labelnrincv.Click += new System.EventHandler(this.label37_Click);
             // 

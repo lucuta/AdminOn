@@ -50,6 +50,8 @@ namespace AdminOn_Desktop
 
         }
 
+        // Aceasta functie activeaza butonul de ANULARE disp plata si inchide fereastra
+
         private void button3_Click(object sender, EventArgs e)
         {
             if (DialogResult.Yes ==
@@ -58,6 +60,8 @@ namespace AdminOn_Desktop
                 this.Close();
             }
         }
+        //
+
 
         private void label37_Click(object sender, EventArgs e)
         {

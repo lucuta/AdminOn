@@ -29,6 +29,20 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.serie_disp_plata = new System.Windows.Forms.TextBox();
+            this.scop_disp_plata = new System.Windows.Forms.TextBox();
+            this.labelnrincv = new System.Windows.Forms.Label();
+            this.nr_disp_plata = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.data_disp_plata = new System.Windows.Forms.DateTimePicker();
+            this.cifre_disp_incasare = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.text_disp_plata_nr = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.text_disp_plata_din_data_de = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
             this.evidenta_dispozitie_incasare = new System.Windows.Forms.DataGridView();
@@ -48,20 +62,6 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.text_disp_plata_din_data_de = new System.Windows.Forms.Label();
-            this.text_disp_plata_nr = new System.Windows.Forms.Label();
-            this.labelnrincv = new System.Windows.Forms.Label();
-            this.cifre_disp_plata = new System.Windows.Forms.TextBox();
-            this.serie_disp_plata = new System.Windows.Forms.TextBox();
-            this.scop_disp_plata = new System.Windows.Forms.TextBox();
-            this.nr_disp_plata = new System.Windows.Forms.TextBox();
-            this.data_disp_plata = new System.Windows.Forms.DateTimePicker();
             this.adresa_disp_plata = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
             this.cnp_disp_plata = new System.Windows.Forms.TextBox();
@@ -88,7 +88,7 @@
             this.groupBox1.Controls.Add(this.nr_disp_plata);
             this.groupBox1.Controls.Add(this.label18);
             this.groupBox1.Controls.Add(this.data_disp_plata);
-            this.groupBox1.Controls.Add(this.cifre_disp_plata);
+            this.groupBox1.Controls.Add(this.cifre_disp_incasare);
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.text_disp_plata_nr);
             this.groupBox1.Controls.Add(this.label7);
@@ -103,6 +103,141 @@
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Dispozitie de INCASARE catre Caserie";
+            // 
+            // serie_disp_plata
+            // 
+            this.serie_disp_plata.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.serie_disp_plata.Location = new System.Drawing.Point(53, 37);
+            this.serie_disp_plata.Name = "serie_disp_plata";
+            this.serie_disp_plata.Size = new System.Drawing.Size(176, 20);
+            this.serie_disp_plata.TabIndex = 51;
+            // 
+            // scop_disp_plata
+            // 
+            this.scop_disp_plata.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.scop_disp_plata.Location = new System.Drawing.Point(97, 161);
+            this.scop_disp_plata.Multiline = true;
+            this.scop_disp_plata.Name = "scop_disp_plata";
+            this.scop_disp_plata.Size = new System.Drawing.Size(352, 46);
+            this.scop_disp_plata.TabIndex = 50;
+            // 
+            // labelnrincv
+            // 
+            this.labelnrincv.AutoSize = true;
+            this.labelnrincv.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.labelnrincv.Location = new System.Drawing.Point(79, 136);
+            this.labelnrincv.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelnrincv.Name = "labelnrincv";
+            this.labelnrincv.Size = new System.Drawing.Size(22, 13);
+            this.labelnrincv.TabIndex = 49;
+            this.labelnrincv.Text = "- - -";
+            this.labelnrincv.Click += new System.EventHandler(this.labelnrincv_Click);
+            // 
+            // nr_disp_plata
+            // 
+            this.nr_disp_plata.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.nr_disp_plata.Location = new System.Drawing.Point(53, 60);
+            this.nr_disp_plata.Name = "nr_disp_plata";
+            this.nr_disp_plata.Size = new System.Drawing.Size(176, 20);
+            this.nr_disp_plata.TabIndex = 49;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label18.Location = new System.Drawing.Point(11, 42);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(37, 13);
+            this.label18.TabIndex = 55;
+            this.label18.Text = "Seria :";
+            // 
+            // data_disp_plata
+            // 
+            this.data_disp_plata.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.data_disp_plata.Location = new System.Drawing.Point(284, 59);
+            this.data_disp_plata.Name = "data_disp_plata";
+            this.data_disp_plata.Size = new System.Drawing.Size(141, 20);
+            this.data_disp_plata.TabIndex = 48;
+            // 
+            // cifre_disp_incasare
+            // 
+            this.cifre_disp_incasare.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.cifre_disp_incasare.Location = new System.Drawing.Point(61, 110);
+            this.cifre_disp_incasare.Name = "cifre_disp_incasare";
+            this.cifre_disp_incasare.Size = new System.Drawing.Size(149, 20);
+            this.cifre_disp_incasare.TabIndex = 48;
+            this.cifre_disp_incasare.TextChanged += new System.EventHandler(this.labelnrincv_Click);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label8.Location = new System.Drawing.Point(11, 161);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(66, 26);
+            this.label8.TabIndex = 54;
+            this.label8.Text = "Scopul \r\nINCASARII :";
+            // 
+            // text_disp_plata_nr
+            // 
+            this.text_disp_plata_nr.AutoSize = true;
+            this.text_disp_plata_nr.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.text_disp_plata_nr.Location = new System.Drawing.Point(11, 66);
+            this.text_disp_plata_nr.Name = "text_disp_plata_nr";
+            this.text_disp_plata_nr.Size = new System.Drawing.Size(21, 13);
+            this.text_disp_plata_nr.TabIndex = 48;
+            this.text_disp_plata_nr.Text = "Nr.";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label7.Location = new System.Drawing.Point(11, 110);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(44, 13);
+            this.label7.TabIndex = 53;
+            this.label7.Text = "in cifre :";
+            // 
+            // text_disp_plata_din_data_de
+            // 
+            this.text_disp_plata_din_data_de.AutoSize = true;
+            this.text_disp_plata_din_data_de.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.text_disp_plata_din_data_de.Location = new System.Drawing.Point(284, 42);
+            this.text_disp_plata_din_data_de.Name = "text_disp_plata_din_data_de";
+            this.text_disp_plata_din_data_de.Size = new System.Drawing.Size(165, 13);
+            this.text_disp_plata_din_data_de.TabIndex = 49;
+            this.text_disp_plata_din_data_de.Text = "INCASARE efectuata in data de :";
+            this.text_disp_plata_din_data_de.Click += new System.EventHandler(this.text_disp_plata_din_data_de_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label6.Location = new System.Drawing.Point(11, 136);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(46, 13);
+            this.label6.TabIndex = 52;
+            this.label6.Text = "in litere :";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label4.Location = new System.Drawing.Point(11, 89);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(244, 13);
+            this.label4.TabIndex = 50;
+            this.label4.Text = "Suma INCASATA ( introduceti valoarea incasata ):";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label5.Location = new System.Drawing.Point(220, 109);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(23, 13);
+            this.label5.TabIndex = 51;
+            this.label5.Text = "LEI";
             // 
             // groupBox2
             // 
@@ -266,138 +401,7 @@
             this.button3.TabIndex = 36;
             this.button3.Text = "ANULEAZA\r\n\r\nEMITEREA DISPOZITIEI DE PLATA";
             this.button3.UseVisualStyleBackColor = true;
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label18.Location = new System.Drawing.Point(11, 42);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(37, 13);
-            this.label18.TabIndex = 55;
-            this.label18.Text = "Seria :";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label8.Location = new System.Drawing.Point(11, 161);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(66, 26);
-            this.label8.TabIndex = 54;
-            this.label8.Text = "Scopul \r\nINCASARII :";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label7.Location = new System.Drawing.Point(11, 110);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(44, 13);
-            this.label7.TabIndex = 53;
-            this.label7.Text = "in cifre :";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label6.Location = new System.Drawing.Point(11, 136);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(46, 13);
-            this.label6.TabIndex = 52;
-            this.label6.Text = "in litere :";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label5.Location = new System.Drawing.Point(220, 109);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(23, 13);
-            this.label5.TabIndex = 51;
-            this.label5.Text = "LEI";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label4.Location = new System.Drawing.Point(11, 89);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(244, 13);
-            this.label4.TabIndex = 50;
-            this.label4.Text = "Suma INCASATA ( introduceti valoarea incasata ):";
-            // 
-            // text_disp_plata_din_data_de
-            // 
-            this.text_disp_plata_din_data_de.AutoSize = true;
-            this.text_disp_plata_din_data_de.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.text_disp_plata_din_data_de.Location = new System.Drawing.Point(284, 42);
-            this.text_disp_plata_din_data_de.Name = "text_disp_plata_din_data_de";
-            this.text_disp_plata_din_data_de.Size = new System.Drawing.Size(165, 13);
-            this.text_disp_plata_din_data_de.TabIndex = 49;
-            this.text_disp_plata_din_data_de.Text = "INCASARE efectuata in data de :";
-            // 
-            // text_disp_plata_nr
-            // 
-            this.text_disp_plata_nr.AutoSize = true;
-            this.text_disp_plata_nr.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.text_disp_plata_nr.Location = new System.Drawing.Point(11, 66);
-            this.text_disp_plata_nr.Name = "text_disp_plata_nr";
-            this.text_disp_plata_nr.Size = new System.Drawing.Size(21, 13);
-            this.text_disp_plata_nr.TabIndex = 48;
-            this.text_disp_plata_nr.Text = "Nr.";
-            // 
-            // labelnrincv
-            // 
-            this.labelnrincv.AutoSize = true;
-            this.labelnrincv.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.labelnrincv.Location = new System.Drawing.Point(79, 136);
-            this.labelnrincv.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.labelnrincv.Name = "labelnrincv";
-            this.labelnrincv.Size = new System.Drawing.Size(22, 13);
-            this.labelnrincv.TabIndex = 49;
-            this.labelnrincv.Text = "- - -";
-            // 
-            // cifre_disp_plata
-            // 
-            this.cifre_disp_plata.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.cifre_disp_plata.Location = new System.Drawing.Point(61, 110);
-            this.cifre_disp_plata.Name = "cifre_disp_plata";
-            this.cifre_disp_plata.Size = new System.Drawing.Size(149, 20);
-            this.cifre_disp_plata.TabIndex = 48;
-            // 
-            // serie_disp_plata
-            // 
-            this.serie_disp_plata.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.serie_disp_plata.Location = new System.Drawing.Point(53, 37);
-            this.serie_disp_plata.Name = "serie_disp_plata";
-            this.serie_disp_plata.Size = new System.Drawing.Size(176, 20);
-            this.serie_disp_plata.TabIndex = 51;
-            // 
-            // scop_disp_plata
-            // 
-            this.scop_disp_plata.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.scop_disp_plata.Location = new System.Drawing.Point(97, 161);
-            this.scop_disp_plata.Multiline = true;
-            this.scop_disp_plata.Name = "scop_disp_plata";
-            this.scop_disp_plata.Size = new System.Drawing.Size(352, 46);
-            this.scop_disp_plata.TabIndex = 50;
-            // 
-            // nr_disp_plata
-            // 
-            this.nr_disp_plata.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.nr_disp_plata.Location = new System.Drawing.Point(53, 60);
-            this.nr_disp_plata.Name = "nr_disp_plata";
-            this.nr_disp_plata.Size = new System.Drawing.Size(176, 20);
-            this.nr_disp_plata.TabIndex = 49;
-            // 
-            // data_disp_plata
-            // 
-            this.data_disp_plata.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.data_disp_plata.Location = new System.Drawing.Point(284, 59);
-            this.data_disp_plata.Name = "data_disp_plata";
-            this.data_disp_plata.Size = new System.Drawing.Size(141, 20);
-            this.data_disp_plata.TabIndex = 48;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // adresa_disp_plata
             // 
@@ -585,7 +589,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label labelnrincv;
-        private System.Windows.Forms.TextBox cifre_disp_plata;
+        private System.Windows.Forms.TextBox cifre_disp_incasare;
         private System.Windows.Forms.TextBox serie_disp_plata;
         private System.Windows.Forms.TextBox scop_disp_plata;
         private System.Windows.Forms.TextBox nr_disp_plata;

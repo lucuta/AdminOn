@@ -21,5 +21,30 @@ namespace AdminOn_Desktop
         {
 
         }
+
+        private void labelnrincv_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
+
+
+        // Aceasta functie activeaza butonul de ANULARE disp incasare si inchide fereastra
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (DialogResult.Yes ==
+            MessageBox.Show("Sunteti sigur ca doriti sa ANULATI emiterea unei DISPOZITII de INCASARE?", "ATENTIE !!!", MessageBoxButtons.YesNoCancel))
+            {
+                this.Close();
+            }
+        }
+
+        private void text_disp_plata_din_data_de_Click(object sender, EventArgs e)
+        {
+
+        }
+        //
     }
 }
