@@ -37,6 +37,7 @@ namespace AdminOn_Desktop
             this.dashBoarCentralizatoareToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitIesireToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.venituriToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dispozitieDeIncasareToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cheltuieliToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dispozitieDePlataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bancaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -46,7 +47,6 @@ namespace AdminOn_Desktop
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.testToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.dispozitieDeIncasareToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.contextMenuStrip2.SuspendLayout();
             this.SuspendLayout();
@@ -103,6 +103,15 @@ namespace AdminOn_Desktop
             this.venituriToolStripMenuItem.Name = "venituriToolStripMenuItem";
             this.venituriToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.venituriToolStripMenuItem.Text = "Venituri";
+            // 
+            // dispozitieDeIncasareToolStripMenuItem
+            // 
+            this.dispozitieDeIncasareToolStripMenuItem.Name = "dispozitieDeIncasareToolStripMenuItem";
+            this.dispozitieDeIncasareToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
+            | System.Windows.Forms.Keys.I)));
+            this.dispozitieDeIncasareToolStripMenuItem.Size = new System.Drawing.Size(256, 22);
+            this.dispozitieDeIncasareToolStripMenuItem.Text = "Dispozitie de Incasare";
+            this.dispozitieDeIncasareToolStripMenuItem.Click += new System.EventHandler(this.dispozitieDeIncasareToolStripMenuItem_Click);
             // 
             // cheltuieliToolStripMenuItem
             // 
@@ -162,14 +171,6 @@ namespace AdminOn_Desktop
             this.testToolStripMenuItem.Name = "testToolStripMenuItem";
             this.testToolStripMenuItem.Size = new System.Drawing.Size(93, 22);
             this.testToolStripMenuItem.Text = "test";
-            // 
-            // dispozitieDeIncasareToolStripMenuItem
-            // 
-            this.dispozitieDeIncasareToolStripMenuItem.Name = "dispozitieDeIncasareToolStripMenuItem";
-            this.dispozitieDeIncasareToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
-            | System.Windows.Forms.Keys.I)));
-            this.dispozitieDeIncasareToolStripMenuItem.Size = new System.Drawing.Size(256, 22);
-            this.dispozitieDeIncasareToolStripMenuItem.Text = "Dispozitie de Incasare";
             // 
             // Form1
             // 

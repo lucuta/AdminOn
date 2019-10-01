@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
             this.text_disp_plata_nr = new System.Windows.Forms.Label();
             this.data_disp_plata = new System.Windows.Forms.DateTimePicker();
             this.text_disp_plata_din_data_de = new System.Windows.Forms.Label();
@@ -44,7 +43,6 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.scop_disp_plata = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.tip_act_disp_plata = new System.Windows.Forms.ComboBox();
             this.label14 = new System.Windows.Forms.Label();
@@ -76,19 +74,10 @@
             this.anulare = new System.Windows.Forms.DataGridViewLinkColumn();
             this.download = new System.Windows.Forms.DataGridViewLinkColumn();
             this.listare = new System.Windows.Forms.DataGridViewLinkColumn();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.evidenta_dispozitie_plata)).BeginInit();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(105, 23);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(330, 24);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Dispozitie de PLATA catre Caserie";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // text_disp_plata_nr
             // 
@@ -217,17 +206,6 @@
             this.scop_disp_plata.Size = new System.Drawing.Size(352, 46);
             this.scop_disp_plata.TabIndex = 16;
             // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label12.Location = new System.Drawing.Point(550, 23);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(535, 24);
-            this.label12.TabIndex = 18;
-            this.label12.Text = "DATE SUPLIMENTARE PRIVIND BENEFICIARUL SUMEI";
-            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // label13
             // 
             this.label13.AutoSize = true;
@@ -303,9 +281,9 @@
             this.button1.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.button1.ForeColor = System.Drawing.Color.Green;
-            this.button1.Location = new System.Drawing.Point(770, 238);
+            this.button1.Location = new System.Drawing.Point(471, 252);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(130, 107);
+            this.button1.Size = new System.Drawing.Size(280, 80);
             this.button1.TabIndex = 34;
             this.button1.Text = "Emite\r\nDISPOZITIA de PLATA\r\n\r\ninregistrand noul BENEFICIAR\r\n";
             this.button1.UseVisualStyleBackColor = true;
@@ -315,9 +293,9 @@
             this.button2.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.button2.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.button2.Location = new System.Drawing.Point(533, 238);
+            this.button2.Location = new System.Drawing.Point(27, 252);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(177, 83);
+            this.button2.Size = new System.Drawing.Size(280, 80);
             this.button2.TabIndex = 35;
             this.button2.Text = "GOLESTE / STERGE\r\n\r\ntoate datele din\r\nDISPOZITIA DE PLATA";
             this.button2.UseVisualStyleBackColor = true;
@@ -327,9 +305,9 @@
             this.button3.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.button3.ForeColor = System.Drawing.Color.Red;
-            this.button3.Location = new System.Drawing.Point(948, 238);
+            this.button3.Location = new System.Drawing.Point(922, 252);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(190, 83);
+            this.button3.Size = new System.Drawing.Size(280, 80);
             this.button3.TabIndex = 36;
             this.button3.Text = "ANULEAZA\r\n\r\nEMITEREA DISPOZITIEI DE PLATA";
             this.button3.UseVisualStyleBackColor = true;
@@ -365,14 +343,14 @@
             this.adresa_disp_plata.Location = new System.Drawing.Point(637, 171);
             this.adresa_disp_plata.Multiline = true;
             this.adresa_disp_plata.Name = "adresa_disp_plata";
-            this.adresa_disp_plata.Size = new System.Drawing.Size(501, 33);
+            this.adresa_disp_plata.Size = new System.Drawing.Size(501, 62);
             this.adresa_disp_plata.TabIndex = 41;
             // 
             // label19
             // 
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label19.Location = new System.Drawing.Point(233, 364);
+            this.label19.Location = new System.Drawing.Point(298, 362);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(653, 24);
             this.label19.TabIndex = 42;
@@ -385,9 +363,9 @@
             this.labelnrincv.Location = new System.Drawing.Point(106, 162);
             this.labelnrincv.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelnrincv.Name = "labelnrincv";
-            this.labelnrincv.Size = new System.Drawing.Size(41, 13);
+            this.labelnrincv.Size = new System.Drawing.Size(22, 13);
             this.labelnrincv.TabIndex = 44;
-            this.labelnrincv.Text = "label37";
+            this.labelnrincv.Text = "- - -";
             this.labelnrincv.Click += new System.EventHandler(this.label37_Click);
             // 
             // evidenta_dispozitie_plata
@@ -411,10 +389,10 @@
             this.anulare,
             this.download,
             this.listare});
-            this.evidenta_dispozitie_plata.Location = new System.Drawing.Point(12, 406);
+            this.evidenta_dispozitie_plata.Location = new System.Drawing.Point(27, 406);
             this.evidenta_dispozitie_plata.Name = "evidenta_dispozitie_plata";
             this.evidenta_dispozitie_plata.ReadOnly = true;
-            this.evidenta_dispozitie_plata.Size = new System.Drawing.Size(1202, 91);
+            this.evidenta_dispozitie_plata.Size = new System.Drawing.Size(1175, 209);
             this.evidenta_dispozitie_plata.TabIndex = 45;
             this.evidenta_dispozitie_plata.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -496,6 +474,28 @@
             this.listare.Name = "listare";
             this.listare.ReadOnly = true;
             // 
+            // groupBox1
+            // 
+            this.groupBox1.BackColor = System.Drawing.SystemColors.Control;
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.groupBox1.Location = new System.Drawing.Point(27, 26);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(467, 220);
+            this.groupBox1.TabIndex = 46;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Dispozitie de PLATA catre Caserie";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.groupBox2.Location = new System.Drawing.Point(519, 26);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(683, 220);
+            this.groupBox2.TabIndex = 47;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "DATE SUPLIMENTARE PRIVIND BENEFICIARUL SUMEI";
+            // 
             // dispozitie_de_plata
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -520,7 +520,6 @@
             this.Controls.Add(this.label14);
             this.Controls.Add(this.tip_act_disp_plata);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.label12);
             this.Controls.Add(this.scop_disp_plata);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
@@ -536,7 +535,8 @@
             this.Controls.Add(this.text_disp_plata_din_data_de);
             this.Controls.Add(this.data_disp_plata);
             this.Controls.Add(this.text_disp_plata_nr);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.groupBox2);
             this.Name = "dispozitie_de_plata";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dispozitie de PLATA";
@@ -548,8 +548,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label text_disp_plata_nr;
         private System.Windows.Forms.DateTimePicker data_disp_plata;
         private System.Windows.Forms.Label text_disp_plata_din_data_de;
@@ -565,7 +563,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox scop_disp_plata;
-        private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.ComboBox tip_act_disp_plata;
         private System.Windows.Forms.Label label14;
@@ -597,5 +594,7 @@
         private System.Windows.Forms.DataGridViewLinkColumn anulare;
         private System.Windows.Forms.DataGridViewLinkColumn download;
         private System.Windows.Forms.DataGridViewLinkColumn listare;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox2;
     }
 }

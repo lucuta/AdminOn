@@ -17,7 +17,12 @@ namespace AdminOn_Desktop
             InitializeComponent();
         }
 
-        
+        private void dispozitieDeIncasareToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            dispozitie_de_incasare form2 = new dispozitie_de_incasare();
+            form2.Show();
+        }
+
         private void dispozitieDePlataToolStripMenuItem_Click(object sender, EventArgs e)
         {
             dispozitie_de_plata form2 = new dispozitie_de_plata();
