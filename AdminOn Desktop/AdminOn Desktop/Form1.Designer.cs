@@ -37,7 +37,6 @@ namespace AdminOn_Desktop
             this.dashBoarCentralizatoareToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitIesireToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.venituriToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.dispozitieDeIncasareToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cheltuieliToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dispozitieDePlataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bancaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -98,20 +97,9 @@ namespace AdminOn_Desktop
             // 
             // venituriToolStripMenuItem
             // 
-            this.venituriToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.dispozitieDeIncasareToolStripMenuItem});
             this.venituriToolStripMenuItem.Name = "venituriToolStripMenuItem";
             this.venituriToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.venituriToolStripMenuItem.Text = "Venituri";
-            // 
-            // dispozitieDeIncasareToolStripMenuItem
-            // 
-            this.dispozitieDeIncasareToolStripMenuItem.Name = "dispozitieDeIncasareToolStripMenuItem";
-            this.dispozitieDeIncasareToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
-            | System.Windows.Forms.Keys.I)));
-            this.dispozitieDeIncasareToolStripMenuItem.Size = new System.Drawing.Size(256, 22);
-            this.dispozitieDeIncasareToolStripMenuItem.Text = "Dispozitie de Incasare";
-            this.dispozitieDeIncasareToolStripMenuItem.Click += new System.EventHandler(this.dispozitieDeIncasareToolStripMenuItem_Click);
             // 
             // cheltuieliToolStripMenuItem
             // 
@@ -207,7 +195,6 @@ namespace AdminOn_Desktop
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip2;
         private System.Windows.Forms.ToolStripMenuItem testToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem dispozitieDeIncasareToolStripMenuItem;
     }
 }
 
