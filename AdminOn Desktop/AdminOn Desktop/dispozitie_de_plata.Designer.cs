@@ -106,7 +106,7 @@
             // 
             // nr_disp_plata
             // 
-            this.nr_disp_plata.Location = new System.Drawing.Point(81, 85);
+            this.nr_disp_plata.Location = new System.Drawing.Point(80, 86);
             this.nr_disp_plata.Name = "nr_disp_plata";
             this.nr_disp_plata.Size = new System.Drawing.Size(176, 20);
             this.nr_disp_plata.TabIndex = 4;
@@ -114,7 +114,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(530, 70);
+            this.label2.Location = new System.Drawing.Point(529, 70);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(203, 13);
             this.label2.TabIndex = 5;
@@ -123,7 +123,7 @@
             // 
             // nume_disp_plata
             // 
-            this.nume_disp_plata.Location = new System.Drawing.Point(736, 68);
+            this.nume_disp_plata.Location = new System.Drawing.Point(735, 68);
             this.nume_disp_plata.Name = "nume_disp_plata";
             this.nume_disp_plata.Size = new System.Drawing.Size(402, 20);
             this.nume_disp_plata.TabIndex = 6;
@@ -131,7 +131,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(530, 92);
+            this.label3.Location = new System.Drawing.Point(529, 92);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(188, 13);
             this.label3.TabIndex = 7;
@@ -139,7 +139,7 @@
             // 
             // functia_disp_plata
             // 
-            this.functia_disp_plata.Location = new System.Drawing.Point(736, 94);
+            this.functia_disp_plata.Location = new System.Drawing.Point(735, 94);
             this.functia_disp_plata.Name = "functia_disp_plata";
             this.functia_disp_plata.Size = new System.Drawing.Size(402, 20);
             this.functia_disp_plata.TabIndex = 8;
@@ -155,7 +155,7 @@
             // 
             // cifre_disp_plata
             // 
-            this.cifre_disp_plata.Location = new System.Drawing.Point(88, 132);
+            this.cifre_disp_plata.Location = new System.Drawing.Point(88, 136);
             this.cifre_disp_plata.Name = "cifre_disp_plata";
             this.cifre_disp_plata.Size = new System.Drawing.Size(149, 20);
             this.cifre_disp_plata.TabIndex = 10;
@@ -209,7 +209,7 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(530, 127);
+            this.label13.Location = new System.Drawing.Point(529, 127);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(99, 13);
             this.label13.TabIndex = 19;
@@ -223,7 +223,7 @@
             "C.I. - CARTE DE IDENTITATE",
             "C.N. - CERTIFICAT DE NASTERE",
             "PASAPORT"});
-            this.tip_act_disp_plata.Location = new System.Drawing.Point(630, 119);
+            this.tip_act_disp_plata.Location = new System.Drawing.Point(629, 119);
             this.tip_act_disp_plata.Name = "tip_act_disp_plata";
             this.tip_act_disp_plata.Size = new System.Drawing.Size(179, 21);
             this.tip_act_disp_plata.TabIndex = 20;
@@ -231,7 +231,7 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(816, 127);
+            this.label14.Location = new System.Drawing.Point(815, 127);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(45, 13);
             this.label14.TabIndex = 21;
@@ -239,7 +239,7 @@
             // 
             // serie_act_id_disp_plata
             // 
-            this.serie_act_id_disp_plata.Location = new System.Drawing.Point(866, 120);
+            this.serie_act_id_disp_plata.Location = new System.Drawing.Point(865, 120);
             this.serie_act_id_disp_plata.Name = "serie_act_id_disp_plata";
             this.serie_act_id_disp_plata.Size = new System.Drawing.Size(100, 20);
             this.serie_act_id_disp_plata.TabIndex = 22;
@@ -247,7 +247,7 @@
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(972, 127);
+            this.label15.Location = new System.Drawing.Point(971, 127);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(32, 13);
             this.label15.TabIndex = 23;
@@ -255,7 +255,7 @@
             // 
             // nr_act_id_disp_plata
             // 
-            this.nr_act_id_disp_plata.Location = new System.Drawing.Point(1011, 120);
+            this.nr_act_id_disp_plata.Location = new System.Drawing.Point(1010, 120);
             this.nr_act_id_disp_plata.Name = "nr_act_id_disp_plata";
             this.nr_act_id_disp_plata.Size = new System.Drawing.Size(127, 20);
             this.nr_act_id_disp_plata.TabIndex = 24;
@@ -271,7 +271,7 @@
             // 
             // serie_disp_plata
             // 
-            this.serie_disp_plata.Location = new System.Drawing.Point(81, 62);
+            this.serie_disp_plata.Location = new System.Drawing.Point(80, 63);
             this.serie_disp_plata.Name = "serie_disp_plata";
             this.serie_disp_plata.Size = new System.Drawing.Size(176, 20);
             this.serie_disp_plata.TabIndex = 29;
@@ -316,7 +316,7 @@
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(530, 152);
+            this.label16.Location = new System.Drawing.Point(529, 152);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(35, 13);
             this.label16.TabIndex = 38;
@@ -324,7 +324,7 @@
             // 
             // cnp_disp_plata
             // 
-            this.cnp_disp_plata.Location = new System.Drawing.Point(572, 145);
+            this.cnp_disp_plata.Location = new System.Drawing.Point(571, 145);
             this.cnp_disp_plata.Name = "cnp_disp_plata";
             this.cnp_disp_plata.Size = new System.Drawing.Size(237, 20);
             this.cnp_disp_plata.TabIndex = 39;
@@ -332,7 +332,7 @@
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(530, 178);
+            this.label17.Location = new System.Drawing.Point(529, 178);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(101, 26);
             this.label17.TabIndex = 40;
@@ -340,7 +340,7 @@
             // 
             // adresa_disp_plata
             // 
-            this.adresa_disp_plata.Location = new System.Drawing.Point(637, 171);
+            this.adresa_disp_plata.Location = new System.Drawing.Point(636, 171);
             this.adresa_disp_plata.Multiline = true;
             this.adresa_disp_plata.Name = "adresa_disp_plata";
             this.adresa_disp_plata.Size = new System.Drawing.Size(501, 62);
@@ -374,6 +374,9 @@
             this.evidenta_dispozitie_plata.AllowUserToAddRows = false;
             this.evidenta_dispozitie_plata.AllowUserToDeleteRows = false;
             this.evidenta_dispozitie_plata.AllowUserToOrderColumns = true;
+            this.evidenta_dispozitie_plata.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.evidenta_dispozitie_plata.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.evidenta_dispozitie_plata.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.nr_crt,
