@@ -12,7 +12,7 @@ namespace AdminOn_Desktop
 {
     public partial class dispozitie_de_plata : Form
     {
-       
+        String numereincuvinte = "";
         numarincuvinte nrincv = new numarincuvinte();
         public dispozitie_de_plata()
         {
@@ -70,9 +70,14 @@ namespace AdminOn_Desktop
 
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
-           
-             labelnrincv.Text = numarincuvinte.NumberToWords(Convert.ToInt32(cifre_disp_plata.Text));
+            numereincuvinte = cifre_disp_plata.Text;
+            if (numereincuvinte != "")
+            {
+                labelnrincv.Text = numarincuvinte.NumberToWords(Convert.ToInt32(numereincuvinte));
 
+            }
+            else
+                labelnrincv.Text = "- - -";
         }
 
         private void dispozitie_de_plata_Load(object sender, EventArgs e)
