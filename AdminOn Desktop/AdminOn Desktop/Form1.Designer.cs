@@ -47,7 +47,6 @@ namespace AdminOn_Desktop
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.testToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.dispozitieDeIncasareToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.contextMenuStrip2.SuspendLayout();
             this.SuspendLayout();
@@ -65,8 +64,7 @@ namespace AdminOn_Desktop
             this.despreToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(687, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(515, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -77,25 +75,25 @@ namespace AdminOn_Desktop
             this.dashBoarCentralizatoareToolStripMenuItem,
             this.exitIesireToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(44, 24);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // adaugaOAsociatieNouaToolStripMenuItem
             // 
             this.adaugaOAsociatieNouaToolStripMenuItem.Name = "adaugaOAsociatieNouaToolStripMenuItem";
-            this.adaugaOAsociatieNouaToolStripMenuItem.Size = new System.Drawing.Size(263, 26);
+            this.adaugaOAsociatieNouaToolStripMenuItem.Size = new System.Drawing.Size(214, 22);
             this.adaugaOAsociatieNouaToolStripMenuItem.Text = "Adauga o Asociatie Noua";
             // 
             // dashBoarCentralizatoareToolStripMenuItem
             // 
             this.dashBoarCentralizatoareToolStripMenuItem.Name = "dashBoarCentralizatoareToolStripMenuItem";
-            this.dashBoarCentralizatoareToolStripMenuItem.Size = new System.Drawing.Size(263, 26);
+            this.dashBoarCentralizatoareToolStripMenuItem.Size = new System.Drawing.Size(214, 22);
             this.dashBoarCentralizatoareToolStripMenuItem.Text = "DashBoar / Centralizatoare";
             // 
             // exitIesireToolStripMenuItem
             // 
             this.exitIesireToolStripMenuItem.Name = "exitIesireToolStripMenuItem";
-            this.exitIesireToolStripMenuItem.Size = new System.Drawing.Size(263, 26);
+            this.exitIesireToolStripMenuItem.Size = new System.Drawing.Size(214, 22);
             this.exitIesireToolStripMenuItem.Text = "Exit / Iesire";
             this.exitIesireToolStripMenuItem.Click += new System.EventHandler(this.exitIesireToolStripMenuItem_Click);
             // 
@@ -104,7 +102,7 @@ namespace AdminOn_Desktop
             this.venituriToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.dispozitieDeIncasareToolStripMenuItem});
             this.venituriToolStripMenuItem.Name = "venituriToolStripMenuItem";
-            this.venituriToolStripMenuItem.Size = new System.Drawing.Size(71, 24);
+            this.venituriToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.venituriToolStripMenuItem.Text = "Venituri";
             // 
             // dispozitieDeIncasareToolStripMenuItem
@@ -112,17 +110,16 @@ namespace AdminOn_Desktop
             this.dispozitieDeIncasareToolStripMenuItem.Name = "dispozitieDeIncasareToolStripMenuItem";
             this.dispozitieDeIncasareToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.I)));
-            this.dispozitieDeIncasareToolStripMenuItem.Size = new System.Drawing.Size(316, 26);
+            this.dispozitieDeIncasareToolStripMenuItem.Size = new System.Drawing.Size(256, 22);
             this.dispozitieDeIncasareToolStripMenuItem.Text = "Dispozitie de Incasare";
             this.dispozitieDeIncasareToolStripMenuItem.Click += new System.EventHandler(this.dispozitieDeIncasareToolStripMenuItem_Click);
             // 
             // cheltuieliToolStripMenuItem
             // 
             this.cheltuieliToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.dispozitieDePlataToolStripMenuItem,
-            this.dispozitieDeIncasareToolStripMenuItem1});
+            this.dispozitieDePlataToolStripMenuItem});
             this.cheltuieliToolStripMenuItem.Name = "cheltuieliToolStripMenuItem";
-            this.cheltuieliToolStripMenuItem.Size = new System.Drawing.Size(83, 24);
+            this.cheltuieliToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
             this.cheltuieliToolStripMenuItem.Text = "Cheltuieli";
             // 
             // dispozitieDePlataToolStripMenuItem
@@ -130,32 +127,32 @@ namespace AdminOn_Desktop
             this.dispozitieDePlataToolStripMenuItem.Name = "dispozitieDePlataToolStripMenuItem";
             this.dispozitieDePlataToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.P)));
-            this.dispozitieDePlataToolStripMenuItem.Size = new System.Drawing.Size(299, 26);
+            this.dispozitieDePlataToolStripMenuItem.Size = new System.Drawing.Size(243, 22);
             this.dispozitieDePlataToolStripMenuItem.Text = "Dispozitie de Plata";
             this.dispozitieDePlataToolStripMenuItem.Click += new System.EventHandler(this.dispozitieDePlataToolStripMenuItem_Click);
             // 
             // bancaToolStripMenuItem
             // 
             this.bancaToolStripMenuItem.Name = "bancaToolStripMenuItem";
-            this.bancaToolStripMenuItem.Size = new System.Drawing.Size(61, 24);
+            this.bancaToolStripMenuItem.Size = new System.Drawing.Size(51, 20);
             this.bancaToolStripMenuItem.Text = "Banca";
             // 
             // listaDeCheltuieliToolStripMenuItem
             // 
             this.listaDeCheltuieliToolStripMenuItem.Name = "listaDeCheltuieliToolStripMenuItem";
-            this.listaDeCheltuieliToolStripMenuItem.Size = new System.Drawing.Size(138, 24);
+            this.listaDeCheltuieliToolStripMenuItem.Size = new System.Drawing.Size(112, 20);
             this.listaDeCheltuieliToolStripMenuItem.Text = "Lista de Cheltuieli";
             // 
             // rapoarteToolStripMenuItem
             // 
             this.rapoarteToolStripMenuItem.Name = "rapoarteToolStripMenuItem";
-            this.rapoarteToolStripMenuItem.Size = new System.Drawing.Size(82, 24);
+            this.rapoarteToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
             this.rapoarteToolStripMenuItem.Text = "Rapoarte";
             // 
             // despreToolStripMenuItem
             // 
             this.despreToolStripMenuItem.Name = "despreToolStripMenuItem";
-            this.despreToolStripMenuItem.Size = new System.Drawing.Size(68, 24);
+            this.despreToolStripMenuItem.Size = new System.Drawing.Size(55, 20);
             this.despreToolStripMenuItem.Text = "Despre";
             // 
             // contextMenuStrip1
@@ -170,31 +167,21 @@ namespace AdminOn_Desktop
             this.contextMenuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.testToolStripMenuItem});
             this.contextMenuStrip2.Name = "contextMenuStrip2";
-            this.contextMenuStrip2.Size = new System.Drawing.Size(103, 28);
+            this.contextMenuStrip2.Size = new System.Drawing.Size(94, 26);
             // 
             // testToolStripMenuItem
             // 
             this.testToolStripMenuItem.Name = "testToolStripMenuItem";
-            this.testToolStripMenuItem.Size = new System.Drawing.Size(102, 24);
+            this.testToolStripMenuItem.Size = new System.Drawing.Size(93, 22);
             this.testToolStripMenuItem.Text = "test";
-            // 
-            // dispozitieDeIncasareToolStripMenuItem1
-            // 
-            this.dispozitieDeIncasareToolStripMenuItem1.Name = "dispozitieDeIncasareToolStripMenuItem1";
-            this.dispozitieDeIncasareToolStripMenuItem1.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
-            | System.Windows.Forms.Keys.F)));
-            this.dispozitieDeIncasareToolStripMenuItem1.Size = new System.Drawing.Size(319, 26);
-            this.dispozitieDeIncasareToolStripMenuItem1.Text = "Dispozitie de Incasare";
-            this.dispozitieDeIncasareToolStripMenuItem1.Click += new System.EventHandler(this.dispozitieDeIncasareToolStripMenuItem1_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(687, 481);
+            this.ClientSize = new System.Drawing.Size(515, 391);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AdminOn - Desktop - Complet Edition";
@@ -224,7 +211,6 @@ namespace AdminOn_Desktop
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip2;
         private System.Windows.Forms.ToolStripMenuItem testToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem dispozitieDeIncasareToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem dispozitieDeIncasareToolStripMenuItem1;
     }
 }
 

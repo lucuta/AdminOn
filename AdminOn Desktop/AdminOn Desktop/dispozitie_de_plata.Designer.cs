@@ -77,6 +77,7 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.evidenta_dispozitie_plata)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // text_disp_plata_nr
@@ -155,9 +156,10 @@
             // 
             // cifre_disp_plata
             // 
-            this.cifre_disp_plata.Location = new System.Drawing.Point(88, 136);
+            this.cifre_disp_plata.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.cifre_disp_plata.Location = new System.Drawing.Point(53, 110);
             this.cifre_disp_plata.Name = "cifre_disp_plata";
-            this.cifre_disp_plata.Size = new System.Drawing.Size(149, 20);
+            this.cifre_disp_plata.Size = new System.Drawing.Size(176, 20);
             this.cifre_disp_plata.TabIndex = 48;
             this.cifre_disp_plata.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             this.cifre_disp_plata.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
@@ -165,7 +167,8 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(247, 135);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label5.Location = new System.Drawing.Point(235, 111);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(23, 13);
             this.label5.TabIndex = 11;
@@ -480,6 +483,8 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.SystemColors.Control;
+            this.groupBox1.Controls.Add(this.cifre_disp_plata);
+            this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.groupBox1.Location = new System.Drawing.Point(27, 26);
             this.groupBox1.Name = "groupBox1";
@@ -527,8 +532,6 @@
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.cifre_disp_plata);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.functia_disp_plata);
             this.Controls.Add(this.label3);
@@ -545,6 +548,8 @@
             this.Text = "Dispozitie de PLATA";
             this.Load += new System.EventHandler(this.dispozitie_de_plata_Load);
             ((System.ComponentModel.ISupportInitialize)(this.evidenta_dispozitie_plata)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
