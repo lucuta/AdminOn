@@ -43,5 +43,17 @@ namespace AdminOn_Desktop
             dispozitie_de_incasare form2 = new dispozitie_de_incasare();
             form2.Show();
         }
+
+        private void furnizoriToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            furnizori form2 = new furnizori();
+            form2.Show();
+        }
+
+        private void clientiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            clienti form2 = new clienti();
+            form2.Show();
+        }
     }
 }
