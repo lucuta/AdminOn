@@ -47,6 +47,12 @@ namespace AdminOn_Desktop
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.testToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.furnizoriToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.furnizoriToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.adaugaFacturaDeLaClientiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.adaugaFacturaDeLaFurnizorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.operatiuniBancareToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.registruDeBancaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.contextMenuStrip2.SuspendLayout();
             this.SuspendLayout();
@@ -100,6 +106,8 @@ namespace AdminOn_Desktop
             // venituriToolStripMenuItem
             // 
             this.venituriToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.furnizoriToolStripMenuItem,
+            this.adaugaFacturaDeLaClientiToolStripMenuItem,
             this.dispozitieDeIncasareToolStripMenuItem});
             this.venituriToolStripMenuItem.Name = "venituriToolStripMenuItem";
             this.venituriToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
@@ -117,6 +125,8 @@ namespace AdminOn_Desktop
             // cheltuieliToolStripMenuItem
             // 
             this.cheltuieliToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.furnizoriToolStripMenuItem1,
+            this.adaugaFacturaDeLaFurnizorToolStripMenuItem,
             this.dispozitieDePlataToolStripMenuItem});
             this.cheltuieliToolStripMenuItem.Name = "cheltuieliToolStripMenuItem";
             this.cheltuieliToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
@@ -133,6 +143,9 @@ namespace AdminOn_Desktop
             // 
             // bancaToolStripMenuItem
             // 
+            this.bancaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.operatiuniBancareToolStripMenuItem,
+            this.registruDeBancaToolStripMenuItem});
             this.bancaToolStripMenuItem.Name = "bancaToolStripMenuItem";
             this.bancaToolStripMenuItem.Size = new System.Drawing.Size(51, 20);
             this.bancaToolStripMenuItem.Text = "Banca";
@@ -175,6 +188,42 @@ namespace AdminOn_Desktop
             this.testToolStripMenuItem.Size = new System.Drawing.Size(93, 22);
             this.testToolStripMenuItem.Text = "test";
             // 
+            // furnizoriToolStripMenuItem
+            // 
+            this.furnizoriToolStripMenuItem.Name = "furnizoriToolStripMenuItem";
+            this.furnizoriToolStripMenuItem.Size = new System.Drawing.Size(256, 22);
+            this.furnizoriToolStripMenuItem.Text = "Clienti";
+            // 
+            // furnizoriToolStripMenuItem1
+            // 
+            this.furnizoriToolStripMenuItem1.Name = "furnizoriToolStripMenuItem1";
+            this.furnizoriToolStripMenuItem1.Size = new System.Drawing.Size(243, 22);
+            this.furnizoriToolStripMenuItem1.Text = "Furnizori";
+            // 
+            // adaugaFacturaDeLaClientiToolStripMenuItem
+            // 
+            this.adaugaFacturaDeLaClientiToolStripMenuItem.Name = "adaugaFacturaDeLaClientiToolStripMenuItem";
+            this.adaugaFacturaDeLaClientiToolStripMenuItem.Size = new System.Drawing.Size(256, 22);
+            this.adaugaFacturaDeLaClientiToolStripMenuItem.Text = "Adauga Factura de la Client";
+            // 
+            // adaugaFacturaDeLaFurnizorToolStripMenuItem
+            // 
+            this.adaugaFacturaDeLaFurnizorToolStripMenuItem.Name = "adaugaFacturaDeLaFurnizorToolStripMenuItem";
+            this.adaugaFacturaDeLaFurnizorToolStripMenuItem.Size = new System.Drawing.Size(243, 22);
+            this.adaugaFacturaDeLaFurnizorToolStripMenuItem.Text = "Adauga Factura de la Furnizor";
+            // 
+            // operatiuniBancareToolStripMenuItem
+            // 
+            this.operatiuniBancareToolStripMenuItem.Name = "operatiuniBancareToolStripMenuItem";
+            this.operatiuniBancareToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.operatiuniBancareToolStripMenuItem.Text = "Operatiuni Bancare";
+            // 
+            // registruDeBancaToolStripMenuItem
+            // 
+            this.registruDeBancaToolStripMenuItem.Name = "registruDeBancaToolStripMenuItem";
+            this.registruDeBancaToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.registruDeBancaToolStripMenuItem.Text = "Registru de Banca";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -211,6 +260,12 @@ namespace AdminOn_Desktop
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip2;
         private System.Windows.Forms.ToolStripMenuItem testToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem dispozitieDeIncasareToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem furnizoriToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem adaugaFacturaDeLaClientiToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem furnizoriToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem adaugaFacturaDeLaFurnizorToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem operatiuniBancareToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem registruDeBancaToolStripMenuItem;
     }
 }
 
