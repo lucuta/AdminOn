@@ -83,83 +83,93 @@
             // text_disp_plata_nr
             // 
             this.text_disp_plata_nr.AutoSize = true;
-            this.text_disp_plata_nr.Location = new System.Drawing.Point(38, 92);
+            this.text_disp_plata_nr.Location = new System.Drawing.Point(51, 113);
+            this.text_disp_plata_nr.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.text_disp_plata_nr.Name = "text_disp_plata_nr";
-            this.text_disp_plata_nr.Size = new System.Drawing.Size(21, 13);
+            this.text_disp_plata_nr.Size = new System.Drawing.Size(27, 17);
             this.text_disp_plata_nr.TabIndex = 1;
             this.text_disp_plata_nr.Text = "Nr.";
             // 
             // data_disp_plata
             // 
-            this.data_disp_plata.Location = new System.Drawing.Point(311, 85);
+            this.data_disp_plata.Location = new System.Drawing.Point(415, 105);
+            this.data_disp_plata.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.data_disp_plata.Name = "data_disp_plata";
-            this.data_disp_plata.Size = new System.Drawing.Size(141, 20);
+            this.data_disp_plata.Size = new System.Drawing.Size(187, 22);
             this.data_disp_plata.TabIndex = 2;
             // 
             // text_disp_plata_din_data_de
             // 
             this.text_disp_plata_din_data_de.AutoSize = true;
-            this.text_disp_plata_din_data_de.Location = new System.Drawing.Point(311, 68);
+            this.text_disp_plata_din_data_de.Location = new System.Drawing.Point(415, 84);
+            this.text_disp_plata_din_data_de.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.text_disp_plata_din_data_de.Name = "text_disp_plata_din_data_de";
-            this.text_disp_plata_din_data_de.Size = new System.Drawing.Size(145, 13);
+            this.text_disp_plata_din_data_de.Size = new System.Drawing.Size(190, 17);
             this.text_disp_plata_din_data_de.TabIndex = 3;
             this.text_disp_plata_din_data_de.Text = "PLATA efectuata in data de :";
             // 
             // nr_disp_plata
             // 
-            this.nr_disp_plata.Location = new System.Drawing.Point(80, 86);
+            this.nr_disp_plata.Location = new System.Drawing.Point(107, 106);
+            this.nr_disp_plata.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.nr_disp_plata.Name = "nr_disp_plata";
-            this.nr_disp_plata.Size = new System.Drawing.Size(176, 20);
+            this.nr_disp_plata.Size = new System.Drawing.Size(233, 22);
             this.nr_disp_plata.TabIndex = 4;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(529, 70);
+            this.label2.Location = new System.Drawing.Point(705, 86);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(203, 13);
+            this.label2.Size = new System.Drawing.Size(264, 17);
             this.label2.TabIndex = 5;
             this.label2.Text = "Numele si Prenumele BENEFICIARULUI :";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // nume_disp_plata
             // 
-            this.nume_disp_plata.Location = new System.Drawing.Point(735, 68);
+            this.nume_disp_plata.Location = new System.Drawing.Point(980, 84);
+            this.nume_disp_plata.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.nume_disp_plata.Name = "nume_disp_plata";
-            this.nume_disp_plata.Size = new System.Drawing.Size(402, 20);
+            this.nume_disp_plata.Size = new System.Drawing.Size(535, 22);
             this.nume_disp_plata.TabIndex = 6;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(529, 92);
+            this.label3.Location = new System.Drawing.Point(705, 113);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(188, 13);
+            this.label3.Size = new System.Drawing.Size(243, 17);
             this.label3.TabIndex = 7;
             this.label3.Text = "Functia (calitatea) BENEFICIARULUI :";
             // 
             // functia_disp_plata
             // 
-            this.functia_disp_plata.Location = new System.Drawing.Point(735, 94);
+            this.functia_disp_plata.Location = new System.Drawing.Point(980, 116);
+            this.functia_disp_plata.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.functia_disp_plata.Name = "functia_disp_plata";
-            this.functia_disp_plata.Size = new System.Drawing.Size(402, 20);
+            this.functia_disp_plata.Size = new System.Drawing.Size(535, 22);
             this.functia_disp_plata.TabIndex = 8;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(38, 115);
+            this.label4.Location = new System.Drawing.Point(51, 142);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(223, 13);
+            this.label4.Size = new System.Drawing.Size(297, 17);
             this.label4.TabIndex = 9;
             this.label4.Text = "Suma PLATITA ( introduceti valoarea platita ):";
             // 
             // cifre_disp_plata
             // 
             this.cifre_disp_plata.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.cifre_disp_plata.Location = new System.Drawing.Point(53, 110);
+            this.cifre_disp_plata.Location = new System.Drawing.Point(71, 135);
+            this.cifre_disp_plata.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cifre_disp_plata.Name = "cifre_disp_plata";
-            this.cifre_disp_plata.Size = new System.Drawing.Size(176, 20);
+            this.cifre_disp_plata.Size = new System.Drawing.Size(233, 23);
             this.cifre_disp_plata.TabIndex = 48;
             this.cifre_disp_plata.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             this.cifre_disp_plata.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox3_KeyPress);
@@ -168,53 +178,59 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label5.Location = new System.Drawing.Point(235, 111);
+            this.label5.Location = new System.Drawing.Point(313, 137);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(23, 13);
+            this.label5.Size = new System.Drawing.Size(28, 17);
             this.label5.TabIndex = 11;
             this.label5.Text = "LEI";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(38, 162);
+            this.label6.Location = new System.Drawing.Point(51, 199);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(46, 13);
+            this.label6.Size = new System.Drawing.Size(62, 17);
             this.label6.TabIndex = 12;
             this.label6.Text = "in litere :";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(38, 136);
+            this.label7.Location = new System.Drawing.Point(51, 167);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(44, 13);
+            this.label7.Size = new System.Drawing.Size(58, 17);
             this.label7.TabIndex = 13;
             this.label7.Text = "in cifre :";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(38, 187);
+            this.label8.Location = new System.Drawing.Point(51, 230);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(82, 13);
+            this.label8.Size = new System.Drawing.Size(104, 17);
             this.label8.TabIndex = 15;
             this.label8.Text = "Scopul PLATII :";
             // 
             // scop_disp_plata
             // 
-            this.scop_disp_plata.Location = new System.Drawing.Point(124, 187);
+            this.scop_disp_plata.Location = new System.Drawing.Point(165, 230);
+            this.scop_disp_plata.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.scop_disp_plata.Multiline = true;
             this.scop_disp_plata.Name = "scop_disp_plata";
-            this.scop_disp_plata.Size = new System.Drawing.Size(352, 46);
+            this.scop_disp_plata.Size = new System.Drawing.Size(468, 56);
             this.scop_disp_plata.TabIndex = 16;
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(529, 127);
+            this.label13.Location = new System.Drawing.Point(705, 156);
+            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(99, 13);
+            this.label13.Size = new System.Drawing.Size(129, 17);
             this.label13.TabIndex = 19;
             this.label13.Text = "Actul de Identitate :";
             this.label13.Click += new System.EventHandler(this.label13_Click);
@@ -226,57 +242,64 @@
             "C.I. - CARTE DE IDENTITATE",
             "C.N. - CERTIFICAT DE NASTERE",
             "PASAPORT"});
-            this.tip_act_disp_plata.Location = new System.Drawing.Point(629, 119);
+            this.tip_act_disp_plata.Location = new System.Drawing.Point(839, 146);
+            this.tip_act_disp_plata.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tip_act_disp_plata.Name = "tip_act_disp_plata";
-            this.tip_act_disp_plata.Size = new System.Drawing.Size(179, 21);
+            this.tip_act_disp_plata.Size = new System.Drawing.Size(237, 24);
             this.tip_act_disp_plata.TabIndex = 20;
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(815, 127);
+            this.label14.Location = new System.Drawing.Point(1087, 156);
+            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(45, 13);
+            this.label14.Size = new System.Drawing.Size(56, 17);
             this.label14.TabIndex = 21;
             this.label14.Text = "SERIA :";
             // 
             // serie_act_id_disp_plata
             // 
-            this.serie_act_id_disp_plata.Location = new System.Drawing.Point(865, 120);
+            this.serie_act_id_disp_plata.Location = new System.Drawing.Point(1153, 148);
+            this.serie_act_id_disp_plata.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.serie_act_id_disp_plata.Name = "serie_act_id_disp_plata";
-            this.serie_act_id_disp_plata.Size = new System.Drawing.Size(100, 20);
+            this.serie_act_id_disp_plata.Size = new System.Drawing.Size(132, 22);
             this.serie_act_id_disp_plata.TabIndex = 22;
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(971, 127);
+            this.label15.Location = new System.Drawing.Point(1295, 156);
+            this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(32, 13);
+            this.label15.Size = new System.Drawing.Size(40, 17);
             this.label15.TabIndex = 23;
             this.label15.Text = "NR. :";
             // 
             // nr_act_id_disp_plata
             // 
-            this.nr_act_id_disp_plata.Location = new System.Drawing.Point(1010, 120);
+            this.nr_act_id_disp_plata.Location = new System.Drawing.Point(1347, 148);
+            this.nr_act_id_disp_plata.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.nr_act_id_disp_plata.Name = "nr_act_id_disp_plata";
-            this.nr_act_id_disp_plata.Size = new System.Drawing.Size(127, 20);
+            this.nr_act_id_disp_plata.Size = new System.Drawing.Size(168, 22);
             this.nr_act_id_disp_plata.TabIndex = 24;
             // 
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(38, 68);
+            this.label18.Location = new System.Drawing.Point(51, 84);
+            this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(37, 13);
+            this.label18.Size = new System.Drawing.Size(49, 17);
             this.label18.TabIndex = 28;
             this.label18.Text = "Seria :";
             // 
             // serie_disp_plata
             // 
-            this.serie_disp_plata.Location = new System.Drawing.Point(80, 63);
+            this.serie_disp_plata.Location = new System.Drawing.Point(107, 78);
+            this.serie_disp_plata.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.serie_disp_plata.Name = "serie_disp_plata";
-            this.serie_disp_plata.Size = new System.Drawing.Size(176, 20);
+            this.serie_disp_plata.Size = new System.Drawing.Size(233, 22);
             this.serie_disp_plata.TabIndex = 29;
             // 
             // button1
@@ -284,9 +307,10 @@
             this.button1.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.button1.ForeColor = System.Drawing.Color.Green;
-            this.button1.Location = new System.Drawing.Point(471, 252);
+            this.button1.Location = new System.Drawing.Point(628, 310);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(280, 80);
+            this.button1.Size = new System.Drawing.Size(373, 98);
             this.button1.TabIndex = 34;
             this.button1.Text = "Emite\r\nDISPOZITIA de PLATA\r\n\r\ninregistrand noul BENEFICIAR\r\n";
             this.button1.UseVisualStyleBackColor = true;
@@ -296,21 +320,24 @@
             this.button2.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.button2.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.button2.Location = new System.Drawing.Point(27, 252);
+            this.button2.Location = new System.Drawing.Point(36, 310);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(280, 80);
+            this.button2.Size = new System.Drawing.Size(373, 98);
             this.button2.TabIndex = 35;
             this.button2.Text = "GOLESTE / STERGE\r\n\r\ntoate datele din\r\nDISPOZITIA DE PLATA";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
             this.button3.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.button3.ForeColor = System.Drawing.Color.Red;
-            this.button3.Location = new System.Drawing.Point(922, 252);
+            this.button3.Location = new System.Drawing.Point(1229, 310);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(280, 80);
+            this.button3.Size = new System.Drawing.Size(373, 98);
             this.button3.TabIndex = 36;
             this.button3.Text = "ANULEAZA\r\n\r\nEMITEREA DISPOZITIEI DE PLATA";
             this.button3.UseVisualStyleBackColor = true;
@@ -319,43 +346,48 @@
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(529, 152);
+            this.label16.Location = new System.Drawing.Point(705, 187);
+            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(35, 13);
+            this.label16.Size = new System.Drawing.Size(44, 17);
             this.label16.TabIndex = 38;
             this.label16.Text = "CNP :";
             // 
             // cnp_disp_plata
             // 
-            this.cnp_disp_plata.Location = new System.Drawing.Point(571, 145);
+            this.cnp_disp_plata.Location = new System.Drawing.Point(761, 178);
+            this.cnp_disp_plata.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cnp_disp_plata.Name = "cnp_disp_plata";
-            this.cnp_disp_plata.Size = new System.Drawing.Size(237, 20);
+            this.cnp_disp_plata.Size = new System.Drawing.Size(315, 22);
             this.cnp_disp_plata.TabIndex = 39;
             // 
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(529, 178);
+            this.label17.Location = new System.Drawing.Point(705, 219);
+            this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(101, 26);
+            this.label17.Size = new System.Drawing.Size(126, 34);
             this.label17.TabIndex = 40;
             this.label17.Text = "ADRESA\r\nBENEFICIARULUI :";
             // 
             // adresa_disp_plata
             // 
-            this.adresa_disp_plata.Location = new System.Drawing.Point(636, 171);
+            this.adresa_disp_plata.Location = new System.Drawing.Point(848, 210);
+            this.adresa_disp_plata.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.adresa_disp_plata.Multiline = true;
             this.adresa_disp_plata.Name = "adresa_disp_plata";
-            this.adresa_disp_plata.Size = new System.Drawing.Size(501, 62);
+            this.adresa_disp_plata.Size = new System.Drawing.Size(667, 75);
             this.adresa_disp_plata.TabIndex = 41;
             // 
             // label19
             // 
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label19.Location = new System.Drawing.Point(298, 362);
+            this.label19.Location = new System.Drawing.Point(397, 446);
+            this.label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(653, 24);
+            this.label19.Size = new System.Drawing.Size(819, 29);
             this.label19.TabIndex = 42;
             this.label19.Text = "EVIDENTA DISPOZITIILOR DE PLATA EMISE PE ULTIMELE 12 LUNI";
             this.label19.Click += new System.EventHandler(this.label19_Click);
@@ -363,10 +395,9 @@
             // labelnrincv
             // 
             this.labelnrincv.AutoSize = true;
-            this.labelnrincv.Location = new System.Drawing.Point(106, 162);
-            this.labelnrincv.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelnrincv.Location = new System.Drawing.Point(141, 199);
             this.labelnrincv.Name = "labelnrincv";
-            this.labelnrincv.Size = new System.Drawing.Size(22, 13);
+            this.labelnrincv.Size = new System.Drawing.Size(31, 17);
             this.labelnrincv.TabIndex = 49;
             this.labelnrincv.Text = "- - -";
             this.labelnrincv.Click += new System.EventHandler(this.label37_Click);
@@ -395,10 +426,11 @@
             this.anulare,
             this.download,
             this.listare});
-            this.evidenta_dispozitie_plata.Location = new System.Drawing.Point(27, 406);
+            this.evidenta_dispozitie_plata.Location = new System.Drawing.Point(36, 500);
+            this.evidenta_dispozitie_plata.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.evidenta_dispozitie_plata.Name = "evidenta_dispozitie_plata";
             this.evidenta_dispozitie_plata.ReadOnly = true;
-            this.evidenta_dispozitie_plata.Size = new System.Drawing.Size(1175, 209);
+            this.evidenta_dispozitie_plata.Size = new System.Drawing.Size(1567, 257);
             this.evidenta_dispozitie_plata.TabIndex = 45;
             this.evidenta_dispozitie_plata.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -486,9 +518,11 @@
             this.groupBox1.Controls.Add(this.cifre_disp_plata);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.groupBox1.Location = new System.Drawing.Point(27, 26);
+            this.groupBox1.Location = new System.Drawing.Point(36, 32);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(467, 220);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(623, 271);
             this.groupBox1.TabIndex = 46;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Dispozitie de PLATA catre Caserie";
@@ -497,19 +531,21 @@
             // 
             this.groupBox2.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.groupBox2.Location = new System.Drawing.Point(519, 26);
+            this.groupBox2.Location = new System.Drawing.Point(692, 32);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(683, 220);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Size = new System.Drawing.Size(911, 271);
             this.groupBox2.TabIndex = 47;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "DATE SUPLIMENTARE PRIVIND BENEFICIARUL SUMEI";
             // 
             // dispozitie_de_plata
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.button2;
-            this.ClientSize = new System.Drawing.Size(1230, 634);
+            this.ClientSize = new System.Drawing.Size(1640, 780);
             this.Controls.Add(this.evidenta_dispozitie_plata);
             this.Controls.Add(this.labelnrincv);
             this.Controls.Add(this.label19);
@@ -543,6 +579,7 @@
             this.Controls.Add(this.text_disp_plata_nr);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "dispozitie_de_plata";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dispozitie de PLATA";

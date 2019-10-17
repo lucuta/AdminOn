@@ -86,5 +86,26 @@ namespace AdminOn_Desktop
                 e.Handled = false;
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            foreach (Control c in Controls)
+            {
+                if (c is TextBox)
+                {
+                    c.Text = "";
+
+                }
+            }
+            foreach (Control c in groupBox1.Controls)
+            {
+                if (c is TextBox)
+                {
+                    c.Text = "";
+
+                }
+            }
+
+        }
     }
 }
