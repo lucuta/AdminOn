@@ -60,7 +60,7 @@
             this.download = new System.Windows.Forms.DataGridViewLinkColumn();
             this.listare = new System.Windows.Forms.DataGridViewLinkColumn();
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.button_emitereplata = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.adresa_disp_plata = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
@@ -98,9 +98,9 @@
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.groupBox1.Location = new System.Drawing.Point(36, 32);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(623, 271);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
@@ -110,32 +110,36 @@
             // 
             this.cifre_disp_incasare.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.cifre_disp_incasare.Location = new System.Drawing.Point(71, 134);
-            this.cifre_disp_incasare.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cifre_disp_incasare.Margin = new System.Windows.Forms.Padding(4);
             this.cifre_disp_incasare.Name = "cifre_disp_incasare";
             this.cifre_disp_incasare.Size = new System.Drawing.Size(233, 23);
             this.cifre_disp_incasare.TabIndex = 56;
             this.cifre_disp_incasare.TextChanged += new System.EventHandler(this.cifre_disp_incasare_TextChanged_1);
+            this.cifre_disp_incasare.KeyDown += new System.Windows.Forms.KeyEventHandler(this.cifre_disp_incasare_KeyDown);
             this.cifre_disp_incasare.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.cifre_disp_incasare_KeyPress);
             // 
             // serie_disp_plata
             // 
             this.serie_disp_plata.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.serie_disp_plata.Location = new System.Drawing.Point(71, 46);
-            this.serie_disp_plata.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.serie_disp_plata.Margin = new System.Windows.Forms.Padding(4);
             this.serie_disp_plata.Name = "serie_disp_plata";
             this.serie_disp_plata.Size = new System.Drawing.Size(233, 23);
             this.serie_disp_plata.TabIndex = 51;
+            this.serie_disp_plata.TextChanged += new System.EventHandler(this.serie_disp_plata_TextChanged);
+            this.serie_disp_plata.KeyDown += new System.Windows.Forms.KeyEventHandler(this.serie_disp_plata_KeyDown);
             // 
             // scop_disp_plata
             // 
             this.scop_disp_plata.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.scop_disp_plata.Location = new System.Drawing.Point(129, 198);
-            this.scop_disp_plata.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.scop_disp_plata.Margin = new System.Windows.Forms.Padding(4);
             this.scop_disp_plata.Multiline = true;
             this.scop_disp_plata.Name = "scop_disp_plata";
             this.scop_disp_plata.Size = new System.Drawing.Size(468, 56);
             this.scop_disp_plata.TabIndex = 50;
             this.scop_disp_plata.TextChanged += new System.EventHandler(this.scop_disp_plata_TextChanged);
+            this.scop_disp_plata.KeyDown += new System.Windows.Forms.KeyEventHandler(this.scop_disp_plata_KeyDown);
             // 
             // labelnrincv
             // 
@@ -152,10 +156,11 @@
             // 
             this.nr_disp_plata.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.nr_disp_plata.Location = new System.Drawing.Point(71, 74);
-            this.nr_disp_plata.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.nr_disp_plata.Margin = new System.Windows.Forms.Padding(4);
             this.nr_disp_plata.Name = "nr_disp_plata";
             this.nr_disp_plata.Size = new System.Drawing.Size(233, 23);
             this.nr_disp_plata.TabIndex = 49;
+            this.nr_disp_plata.KeyDown += new System.Windows.Forms.KeyEventHandler(this.nr_disp_plata_KeyDown);
             // 
             // label18
             // 
@@ -172,10 +177,11 @@
             // 
             this.data_disp_plata.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.data_disp_plata.Location = new System.Drawing.Point(379, 73);
-            this.data_disp_plata.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.data_disp_plata.Margin = new System.Windows.Forms.Padding(4);
             this.data_disp_plata.Name = "data_disp_plata";
             this.data_disp_plata.Size = new System.Drawing.Size(187, 23);
             this.data_disp_plata.TabIndex = 48;
+            this.data_disp_plata.KeyDown += new System.Windows.Forms.KeyEventHandler(this.data_disp_plata_KeyDown);
             // 
             // label8
             // 
@@ -260,9 +266,9 @@
             this.groupBox2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.groupBox2.Location = new System.Drawing.Point(692, 32);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(911, 271);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
@@ -304,7 +310,7 @@
             this.download,
             this.listare});
             this.evidenta_dispozitie_incasare.Location = new System.Drawing.Point(36, 500);
-            this.evidenta_dispozitie_incasare.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.evidenta_dispozitie_incasare.Margin = new System.Windows.Forms.Padding(4);
             this.evidenta_dispozitie_incasare.Name = "evidenta_dispozitie_incasare";
             this.evidenta_dispozitie_incasare.ReadOnly = true;
             this.evidenta_dispozitie_incasare.Size = new System.Drawing.Size(1567, 257);
@@ -393,7 +399,7 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.button1.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.button1.Location = new System.Drawing.Point(36, 310);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(373, 98);
             this.button1.TabIndex = 46;
@@ -401,17 +407,17 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // button_emitereplata
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button2.ForeColor = System.Drawing.Color.Green;
-            this.button2.Location = new System.Drawing.Point(628, 310);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(373, 98);
-            this.button2.TabIndex = 47;
-            this.button2.Text = "Emite\r\nDISPOZITIA de PLATA\r\n\r\ninregistrand noul BENEFICIAR";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button_emitereplata.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button_emitereplata.ForeColor = System.Drawing.Color.Green;
+            this.button_emitereplata.Location = new System.Drawing.Point(628, 310);
+            this.button_emitereplata.Margin = new System.Windows.Forms.Padding(4);
+            this.button_emitereplata.Name = "button_emitereplata";
+            this.button_emitereplata.Size = new System.Drawing.Size(373, 98);
+            this.button_emitereplata.TabIndex = 47;
+            this.button_emitereplata.Text = "Emite\r\nDISPOZITIA de PLATA\r\n\r\ninregistrand noul BENEFICIAR";
+            this.button_emitereplata.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
@@ -419,7 +425,7 @@
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.button3.ForeColor = System.Drawing.Color.Red;
             this.button3.Location = new System.Drawing.Point(1229, 310);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(373, 98);
             this.button3.TabIndex = 36;
@@ -430,11 +436,12 @@
             // adresa_disp_plata
             // 
             this.adresa_disp_plata.Location = new System.Drawing.Point(848, 210);
-            this.adresa_disp_plata.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.adresa_disp_plata.Margin = new System.Windows.Forms.Padding(4);
             this.adresa_disp_plata.Multiline = true;
             this.adresa_disp_plata.Name = "adresa_disp_plata";
             this.adresa_disp_plata.Size = new System.Drawing.Size(667, 75);
             this.adresa_disp_plata.TabIndex = 61;
+            this.adresa_disp_plata.KeyDown += new System.Windows.Forms.KeyEventHandler(this.adresa_disp_plata_KeyDown);
             // 
             // label17
             // 
@@ -449,10 +456,11 @@
             // cnp_disp_plata
             // 
             this.cnp_disp_plata.Location = new System.Drawing.Point(761, 178);
-            this.cnp_disp_plata.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cnp_disp_plata.Margin = new System.Windows.Forms.Padding(4);
             this.cnp_disp_plata.Name = "cnp_disp_plata";
             this.cnp_disp_plata.Size = new System.Drawing.Size(315, 22);
             this.cnp_disp_plata.TabIndex = 59;
+            this.cnp_disp_plata.KeyDown += new System.Windows.Forms.KeyEventHandler(this.cnp_disp_plata_KeyDown);
             // 
             // label16
             // 
@@ -467,10 +475,12 @@
             // nr_act_id_disp_plata
             // 
             this.nr_act_id_disp_plata.Location = new System.Drawing.Point(1347, 148);
-            this.nr_act_id_disp_plata.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.nr_act_id_disp_plata.Margin = new System.Windows.Forms.Padding(4);
             this.nr_act_id_disp_plata.Name = "nr_act_id_disp_plata";
             this.nr_act_id_disp_plata.Size = new System.Drawing.Size(168, 22);
             this.nr_act_id_disp_plata.TabIndex = 57;
+            this.nr_act_id_disp_plata.KeyDown += new System.Windows.Forms.KeyEventHandler(this.nr_act_id_disp_plata_KeyDown);
+            this.nr_act_id_disp_plata.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.nr_act_id_disp_plata_KeyPress);
             // 
             // label15
             // 
@@ -485,10 +495,11 @@
             // serie_act_id_disp_plata
             // 
             this.serie_act_id_disp_plata.Location = new System.Drawing.Point(1153, 148);
-            this.serie_act_id_disp_plata.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.serie_act_id_disp_plata.Margin = new System.Windows.Forms.Padding(4);
             this.serie_act_id_disp_plata.Name = "serie_act_id_disp_plata";
             this.serie_act_id_disp_plata.Size = new System.Drawing.Size(132, 22);
             this.serie_act_id_disp_plata.TabIndex = 55;
+            this.serie_act_id_disp_plata.KeyDown += new System.Windows.Forms.KeyEventHandler(this.serie_act_id_disp_plata_KeyDown);
             // 
             // label14
             // 
@@ -508,10 +519,11 @@
             "C.N. - CERTIFICAT DE NASTERE",
             "PASAPORT"});
             this.tip_act_disp_plata.Location = new System.Drawing.Point(839, 146);
-            this.tip_act_disp_plata.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tip_act_disp_plata.Margin = new System.Windows.Forms.Padding(4);
             this.tip_act_disp_plata.Name = "tip_act_disp_plata";
             this.tip_act_disp_plata.Size = new System.Drawing.Size(237, 24);
             this.tip_act_disp_plata.TabIndex = 53;
+            this.tip_act_disp_plata.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tip_act_disp_plata_KeyDown);
             // 
             // label13
             // 
@@ -526,10 +538,11 @@
             // functia_disp_plata
             // 
             this.functia_disp_plata.Location = new System.Drawing.Point(980, 116);
-            this.functia_disp_plata.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.functia_disp_plata.Margin = new System.Windows.Forms.Padding(4);
             this.functia_disp_plata.Name = "functia_disp_plata";
             this.functia_disp_plata.Size = new System.Drawing.Size(535, 22);
             this.functia_disp_plata.TabIndex = 51;
+            this.functia_disp_plata.KeyDown += new System.Windows.Forms.KeyEventHandler(this.functia_disp_plata_KeyDown);
             // 
             // label3
             // 
@@ -544,10 +557,11 @@
             // nume_disp_plata
             // 
             this.nume_disp_plata.Location = new System.Drawing.Point(980, 84);
-            this.nume_disp_plata.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.nume_disp_plata.Margin = new System.Windows.Forms.Padding(4);
             this.nume_disp_plata.Name = "nume_disp_plata";
             this.nume_disp_plata.Size = new System.Drawing.Size(535, 22);
             this.nume_disp_plata.TabIndex = 49;
+            this.nume_disp_plata.KeyDown += new System.Windows.Forms.KeyEventHandler(this.nume_disp_plata_KeyDown);
             // 
             // label2
             // 
@@ -579,13 +593,13 @@
             this.Controls.Add(this.nume_disp_plata);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button_emitereplata);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.evidenta_dispozitie_incasare);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "dispozitie_de_incasare";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "dispozitie_de_incasare";
@@ -617,7 +631,7 @@
         private System.Windows.Forms.DataGridViewLinkColumn download;
         private System.Windows.Forms.DataGridViewLinkColumn listare;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button_emitereplata;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label8;

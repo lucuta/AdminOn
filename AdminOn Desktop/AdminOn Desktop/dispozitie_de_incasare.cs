@@ -18,6 +18,8 @@ namespace AdminOn_Desktop
         {
             InitializeComponent();
             cifre_disp_incasare.MaxLength = 9;
+            this.ActiveControl = serie_disp_plata;
+            serie_disp_plata.Focus();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -74,6 +76,8 @@ namespace AdminOn_Desktop
 
         private void cifre_disp_incasare_KeyPress(object sender, KeyPressEventArgs e)
         {
+
+
             Char chr = e.KeyChar;
 
             if (!char.IsNumber(e.KeyChar) && chr != 8)
@@ -106,6 +110,118 @@ namespace AdminOn_Desktop
                 }
             }
 
+        }
+
+        private void serie_disp_plata_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void nr_act_id_disp_plata_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (Keys.Enter == e.KeyCode || Keys.Tab == e.KeyCode)
+            {
+                cnp_disp_plata.Focus();
+
+            }
+        }
+
+        private void serie_disp_plata_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (Keys.Enter == e.KeyCode || Keys.Tab == e.KeyCode)
+            {
+                nr_disp_plata.Focus();
+
+            }
+        }
+
+        private void nr_disp_plata_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (Keys.Enter == e.KeyCode || Keys.Tab == e.KeyCode)
+            {
+                cifre_disp_incasare.Focus();
+
+            }
+            
+        }
+
+        private void scop_disp_plata_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (Keys.Enter == e.KeyCode || Keys.Tab == e.KeyCode)
+            {
+                data_disp_plata.Focus();
+
+            }
+            
+        }
+
+        private void data_disp_plata_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (Keys.Enter == e.KeyCode || Keys.Tab == e.KeyCode)
+            {
+                nume_disp_plata.Focus();
+
+            }
+        }
+
+        private void nume_disp_plata_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (Keys.Enter == e.KeyCode || Keys.Tab == e.KeyCode)
+            {
+                functia_disp_plata.Focus();
+
+            }
+        }
+
+        private void functia_disp_plata_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (Keys.Enter == e.KeyCode || Keys.Tab == e.KeyCode)
+            {
+                tip_act_disp_plata.Focus();
+
+            }
+        }
+
+        private void tip_act_disp_plata_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (Keys.Enter == e.KeyCode || Keys.Tab == e.KeyCode)
+            {
+                serie_act_id_disp_plata.Focus();
+
+            }
+        }
+
+        private void serie_act_id_disp_plata_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (Keys.Enter == e.KeyCode || Keys.Tab == e.KeyCode)
+            {
+                nr_act_id_disp_plata.Focus();
+
+            }
+        }
+
+        private void nr_act_id_disp_plata_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            
+        }
+
+        private void cnp_disp_plata_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (Keys.Enter == e.KeyCode || Keys.Tab == e.KeyCode)
+            {
+                adresa_disp_plata.Focus();
+
+            }
+        }
+
+        private void adresa_disp_plata_KeyDown(object sender, KeyEventArgs e)
+        {
+            button_emitereplata.Focus();
+        }
+
+        private void cifre_disp_incasare_KeyDown(object sender, KeyEventArgs e)
+        {
+            scop_disp_plata.Focus();
         }
     }
 }
